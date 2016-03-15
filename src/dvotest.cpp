@@ -30,7 +30,7 @@ int main(int argc, char** argv)
     cr.matrix().topLeftCorner<3,3>() = r2.transpose() * r1;
     cr.translation() =  r2.transpose() * (t1 - t2);
     std::cout << "transformation : " <<std::endl << cr.matrix() <<std::endl;
-*/
+
     clock_t begin,end;
     double time_spend;
     begin = clock();
@@ -38,7 +38,7 @@ int main(int argc, char** argv)
     end = clock();
     time_spend = (double)(end - begin)/CLOCKS_PER_SEC;
     std::cout << "GOT A FRAME , Time SPEND:"<<time_spend<<std::endl;
-
+*/
 
     Eigen::Affine3d trajectory,result, trajectory_showpclpoint;
     GroundtruthPose gt;
