@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libimgprolib.a  CMakeFiles/imgprolib.dir/src/FrameData.cpp.o CMakeFiles/imgprolib.dir/src/viewer.cpp.o
+/usr/bin/ranlib ../lib/libimgprolib.a

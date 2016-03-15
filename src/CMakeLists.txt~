@@ -1,0 +1,20 @@
+message("src cmake ")
+
+find_package(OpenCV 2.4 REQUIRED)
+include_directories(${OPENCV_INCLUDE_DIRS})
+
+LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
+find_package(Eigen3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIR})
+
+add_subdirectory(densetrack)
+#add_subdirectory(gui)
+#add_subdirectory(util)
+add_subdirectory(imgpro)
+
+include_directories(imgpro)
+include_directories(densetrack)
+
+add_executable(dvotest dvotest.cpp)
+target_link_libraries(dvotest imgprolib)
+

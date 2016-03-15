@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libdvocorelib.a  CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o
+/usr/bin/ranlib ../lib/libdvocorelib.a

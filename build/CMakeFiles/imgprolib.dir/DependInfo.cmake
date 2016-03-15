@@ -1,0 +1,28 @@
+# The set of languages for which implicit dependencies are needed:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/hyj/DenseVisualOdometry/src/FrameData.cpp" "/home/hyj/DenseVisualOdometry/build/CMakeFiles/imgprolib.dir/src/FrameData.cpp.o"
+  "/home/hyj/DenseVisualOdometry/src/viewer.cpp" "/home/hyj/DenseVisualOdometry/build/CMakeFiles/imgprolib.dir/src/viewer.cpp.o"
+  )
+SET(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# The include file search paths:
+SET(CMAKE_C_TARGET_INCLUDE_PATH
+  "../include"
+  "../thirdparty"
+  "/usr/include/opencv"
+  "/usr/include/eigen3"
+  "/usr/include/vtk-5.8"
+  "/usr/include/pcl-1.7"
+  "/usr/include/ni"
+  )
+SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
