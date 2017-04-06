@@ -415,9 +415,9 @@ CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../include/CalWeight.h
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../include/FrameData.h
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../include/Least_squares.h
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../include/TransformEstimate.h
-CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../thirdparty/sophus_src/sophus/se3.h
-CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../thirdparty/sophus_src/sophus/so3.h
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../src/TransformEstimate.cpp
+CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: /home/hyj/svo_third_package/Sophus/sophus/se3.h
+CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: /home/hyj/svo_third_package/Sophus/sophus/so3.h
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: /usr/include/eigen3/Eigen/Cholesky
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: /usr/include/eigen3/Eigen/Core
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: /usr/include/eigen3/Eigen/Dense

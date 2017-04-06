@@ -1,3 +1,3 @@
-/home/hyj/DenseVisualOdometry/build/CMakeFiles/dvocorelib.dir
-/home/hyj/DenseVisualOdometry/build/CMakeFiles/dvotest.dir
-/home/hyj/DenseVisualOdometry/build/CMakeFiles/imgprolib.dir
+/home/hyj/dvo_demo-code/build/CMakeFiles/dvocorelib.dir
+/home/hyj/dvo_demo-code/build/CMakeFiles/dvotest.dir
+/home/hyj/dvo_demo-code/build/CMakeFiles/imgprolib.dir

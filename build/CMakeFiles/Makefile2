@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyj/DenseVisualOdometry
+CMAKE_SOURCE_DIR = /home/hyj/dvo_demo-code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyj/DenseVisualOdometry/build
+CMAKE_BINARY_DIR = /home/hyj/dvo_demo-code/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/dvocorelib.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/hyj/DenseVisualOdometry/build
 CMakeFiles/dvocorelib.dir/all: CMakeFiles/imgprolib.dir/all
 	$(MAKE) -f CMakeFiles/dvocorelib.dir/build.make CMakeFiles/dvocorelib.dir/depend
 	$(MAKE) -f CMakeFiles/dvocorelib.dir/build.make CMakeFiles/dvocorelib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles  1 2 3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles  1 2 3
 	@echo "Built target dvocorelib"
 .PHONY : CMakeFiles/dvocorelib.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/dvocorelib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dvocorelib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/DenseVisualOdometry/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/dvo_demo-code/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dvocorelib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/DenseVisualOdometry/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/dvo_demo-code/build/CMakeFiles 0
 .PHONY : CMakeFiles/dvocorelib.dir/rule
 
 # Convenience name for target.
@@ -94,11 +94,11 @@ clean: CMakeFiles/dvocorelib.dir/clean
 # Target rules for target CMakeFiles/dvotest.dir
 
 # All Build rule for target.
-CMakeFiles/dvotest.dir/all: CMakeFiles/imgprolib.dir/all
 CMakeFiles/dvotest.dir/all: CMakeFiles/dvocorelib.dir/all
+CMakeFiles/dvotest.dir/all: CMakeFiles/imgprolib.dir/all
 	$(MAKE) -f CMakeFiles/dvotest.dir/build.make CMakeFiles/dvotest.dir/depend
 	$(MAKE) -f CMakeFiles/dvotest.dir/build.make CMakeFiles/dvotest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles  4
 	@echo "Built target dvotest"
 .PHONY : CMakeFiles/dvotest.dir/all
 
@@ -108,9 +108,9 @@ all: CMakeFiles/dvotest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dvotest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/DenseVisualOdometry/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/dvo_demo-code/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dvotest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/DenseVisualOdometry/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/dvo_demo-code/build/CMakeFiles 0
 .PHONY : CMakeFiles/dvotest.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ clean: CMakeFiles/dvotest.dir/clean
 CMakeFiles/imgprolib.dir/all:
 	$(MAKE) -f CMakeFiles/imgprolib.dir/build.make CMakeFiles/imgprolib.dir/depend
 	$(MAKE) -f CMakeFiles/imgprolib.dir/build.make CMakeFiles/imgprolib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles  5 6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles  5 6
 	@echo "Built target imgprolib"
 .PHONY : CMakeFiles/imgprolib.dir/all
 
@@ -143,9 +143,9 @@ all: CMakeFiles/imgprolib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imgprolib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/DenseVisualOdometry/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/dvo_demo-code/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imgprolib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/DenseVisualOdometry/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hyj/dvo_demo-code/build/CMakeFiles 0
 .PHONY : CMakeFiles/imgprolib.dir/rule
 
 # Convenience name for target.

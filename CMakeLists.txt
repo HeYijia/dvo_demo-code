@@ -43,9 +43,17 @@ include/TransformEstimate.h
 include/Least_squares.h
 )
 
+#target_link_libraries(dvocorelib
+#imgprolib
+#${PROJECT_SOURCE_DIR}/thirdparty/sophus_src/build/libSophus.so
+#)
+
+# sophus 
+FIND_PACKAGE(Sophus REQUIRED)
+include_directories(${Sophus_INCLUDE_DIRS})
 target_link_libraries(dvocorelib
 imgprolib
-${PROJECT_SOURCE_DIR}/thirdparty/sophus_src/build/libSophus.so
+${Sophus_LIBRARIES}
 )
 
 add_executable(dvotest src/dvotest.cpp)

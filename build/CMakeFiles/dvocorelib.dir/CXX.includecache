@@ -38,33 +38,23 @@ CalWeight.h
 Least_squares.h
 ../include/Least_squares.h
 
-../thirdparty/sophus_src/sophus/se3.h
-so3.h
-../thirdparty/sophus_src/sophus/so3.h
+/home/hyj/dvo_demo-code/src/TransformEstimate.cpp
+TransformEstimate.h
+/home/hyj/dvo_demo-code/src/TransformEstimate.h
+sophus/se3.h
+/home/hyj/dvo_demo-code/src/sophus/se3.h
 
-../thirdparty/sophus_src/sophus/so3.h
+/home/hyj/svo_third_package/Sophus/sophus/se3.h
+so3.h
+/home/hyj/svo_third_package/Sophus/sophus/so3.h
+
+/home/hyj/svo_third_package/Sophus/sophus/so3.h
 Eigen/Core
 -
 Eigen/StdVector
 -
 Eigen/Geometry
 -
-
-/home/hyj/DenseVisualOdometry/src/CalWeight.cpp
-CalWeight.h
-/home/hyj/DenseVisualOdometry/src/CalWeight.h
-
-/home/hyj/DenseVisualOdometry/src/Least_squares.cpp
-Least_squares.h
-/home/hyj/DenseVisualOdometry/src/Least_squares.h
-iostream
--
-
-/home/hyj/DenseVisualOdometry/src/TransformEstimate.cpp
-TransformEstimate.h
-/home/hyj/DenseVisualOdometry/src/TransformEstimate.h
-sophus_src/sophus/se3.h
-/home/hyj/DenseVisualOdometry/src/sophus_src/sophus/se3.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

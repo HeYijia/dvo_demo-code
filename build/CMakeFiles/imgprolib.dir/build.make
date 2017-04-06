@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyj/DenseVisualOdometry
+CMAKE_SOURCE_DIR = /home/hyj/dvo_demo-code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyj/DenseVisualOdometry/build
+CMAKE_BINARY_DIR = /home/hyj/dvo_demo-code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imgprolib.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/imgprolib.dir/flags.make
 
 CMakeFiles/imgprolib.dir/src/FrameData.cpp.o: CMakeFiles/imgprolib.dir/flags.make
 CMakeFiles/imgprolib.dir/src/FrameData.cpp.o: ../src/FrameData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/imgprolib.dir/src/FrameData.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imgprolib.dir/src/FrameData.cpp.o -c /home/hyj/DenseVisualOdometry/src/FrameData.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imgprolib.dir/src/FrameData.cpp.o -c /home/hyj/dvo_demo-code/src/FrameData.cpp
 
 CMakeFiles/imgprolib.dir/src/FrameData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgprolib.dir/src/FrameData.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/DenseVisualOdometry/src/FrameData.cpp > CMakeFiles/imgprolib.dir/src/FrameData.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/dvo_demo-code/src/FrameData.cpp > CMakeFiles/imgprolib.dir/src/FrameData.cpp.i
 
 CMakeFiles/imgprolib.dir/src/FrameData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgprolib.dir/src/FrameData.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/DenseVisualOdometry/src/FrameData.cpp -o CMakeFiles/imgprolib.dir/src/FrameData.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/dvo_demo-code/src/FrameData.cpp -o CMakeFiles/imgprolib.dir/src/FrameData.cpp.s
 
 CMakeFiles/imgprolib.dir/src/FrameData.cpp.o.requires:
 .PHONY : CMakeFiles/imgprolib.dir/src/FrameData.cpp.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/imgprolib.dir/src/FrameData.cpp.o.provides.build: CMakeFiles/imgproli
 
 CMakeFiles/imgprolib.dir/src/viewer.cpp.o: CMakeFiles/imgprolib.dir/flags.make
 CMakeFiles/imgprolib.dir/src/viewer.cpp.o: ../src/viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/imgprolib.dir/src/viewer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imgprolib.dir/src/viewer.cpp.o -c /home/hyj/DenseVisualOdometry/src/viewer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/imgprolib.dir/src/viewer.cpp.o -c /home/hyj/dvo_demo-code/src/viewer.cpp
 
 CMakeFiles/imgprolib.dir/src/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgprolib.dir/src/viewer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/DenseVisualOdometry/src/viewer.cpp > CMakeFiles/imgprolib.dir/src/viewer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/dvo_demo-code/src/viewer.cpp > CMakeFiles/imgprolib.dir/src/viewer.cpp.i
 
 CMakeFiles/imgprolib.dir/src/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgprolib.dir/src/viewer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/DenseVisualOdometry/src/viewer.cpp -o CMakeFiles/imgprolib.dir/src/viewer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/dvo_demo-code/src/viewer.cpp -o CMakeFiles/imgprolib.dir/src/viewer.cpp.s
 
 CMakeFiles/imgprolib.dir/src/viewer.cpp.o.requires:
 .PHONY : CMakeFiles/imgprolib.dir/src/viewer.cpp.o.requires
@@ -127,6 +127,6 @@ CMakeFiles/imgprolib.dir/clean:
 .PHONY : CMakeFiles/imgprolib.dir/clean
 
 CMakeFiles/imgprolib.dir/depend:
-	cd /home/hyj/DenseVisualOdometry/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyj/DenseVisualOdometry /home/hyj/DenseVisualOdometry /home/hyj/DenseVisualOdometry/build /home/hyj/DenseVisualOdometry/build /home/hyj/DenseVisualOdometry/build/CMakeFiles/imgprolib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyj/dvo_demo-code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyj/dvo_demo-code /home/hyj/dvo_demo-code /home/hyj/dvo_demo-code/build /home/hyj/dvo_demo-code/build /home/hyj/dvo_demo-code/build/CMakeFiles/imgprolib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imgprolib.dir/depend
 

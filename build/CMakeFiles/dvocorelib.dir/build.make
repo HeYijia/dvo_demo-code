@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyj/DenseVisualOdometry
+CMAKE_SOURCE_DIR = /home/hyj/dvo_demo-code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyj/DenseVisualOdometry/build
+CMAKE_BINARY_DIR = /home/hyj/dvo_demo-code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dvocorelib.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/dvocorelib.dir/flags.make
 
 CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o: CMakeFiles/dvocorelib.dir/flags.make
 CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o: ../src/CalWeight.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o -c /home/hyj/DenseVisualOdometry/src/CalWeight.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o -c /home/hyj/dvo_demo-code/src/CalWeight.cpp
 
 CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/DenseVisualOdometry/src/CalWeight.cpp > CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/dvo_demo-code/src/CalWeight.cpp > CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.i
 
 CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/DenseVisualOdometry/src/CalWeight.cpp -o CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/dvo_demo-code/src/CalWeight.cpp -o CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.s
 
 CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o.requires:
 .PHONY : CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o.provides.build: CMakeFiles/dvocore
 
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: CMakeFiles/dvocorelib.dir/flags.make
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o: ../src/TransformEstimate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o -c /home/hyj/DenseVisualOdometry/src/TransformEstimate.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o -c /home/hyj/dvo_demo-code/src/TransformEstimate.cpp
 
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/DenseVisualOdometry/src/TransformEstimate.cpp > CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/dvo_demo-code/src/TransformEstimate.cpp > CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.i
 
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/DenseVisualOdometry/src/TransformEstimate.cpp -o CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/dvo_demo-code/src/TransformEstimate.cpp -o CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.s
 
 CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o.requires:
 .PHONY : CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o: CMakeFiles/dvocorelib.dir/flags.make
 CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o: ../src/Least_squares.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o -c /home/hyj/DenseVisualOdometry/src/Least_squares.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o -c /home/hyj/dvo_demo-code/src/Least_squares.cpp
 
 CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/DenseVisualOdometry/src/Least_squares.cpp > CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/dvo_demo-code/src/Least_squares.cpp > CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.i
 
 CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/DenseVisualOdometry/src/Least_squares.cpp -o CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/dvo_demo-code/src/Least_squares.cpp -o CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.s
 
 CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o.requires:
 .PHONY : CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o.requires
@@ -153,6 +153,6 @@ CMakeFiles/dvocorelib.dir/clean:
 .PHONY : CMakeFiles/dvocorelib.dir/clean
 
 CMakeFiles/dvocorelib.dir/depend:
-	cd /home/hyj/DenseVisualOdometry/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyj/DenseVisualOdometry /home/hyj/DenseVisualOdometry /home/hyj/DenseVisualOdometry/build /home/hyj/DenseVisualOdometry/build /home/hyj/DenseVisualOdometry/build/CMakeFiles/dvocorelib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyj/dvo_demo-code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyj/dvo_demo-code /home/hyj/dvo_demo-code /home/hyj/dvo_demo-code/build /home/hyj/dvo_demo-code/build /home/hyj/dvo_demo-code/build/CMakeFiles/dvocorelib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dvocorelib.dir/depend
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyj/DenseVisualOdometry
+CMAKE_SOURCE_DIR = /home/hyj/dvo_demo-code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyj/DenseVisualOdometry/build
+CMAKE_BINARY_DIR = /home/hyj/dvo_demo-code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dvotest.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/dvotest.dir/flags.make
 
 CMakeFiles/dvotest.dir/src/dvotest.cpp.o: CMakeFiles/dvotest.dir/flags.make
 CMakeFiles/dvotest.dir/src/dvotest.cpp.o: ../src/dvotest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/DenseVisualOdometry/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hyj/dvo_demo-code/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/dvotest.dir/src/dvotest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvotest.dir/src/dvotest.cpp.o -c /home/hyj/DenseVisualOdometry/src/dvotest.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dvotest.dir/src/dvotest.cpp.o -c /home/hyj/dvo_demo-code/src/dvotest.cpp
 
 CMakeFiles/dvotest.dir/src/dvotest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dvotest.dir/src/dvotest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/DenseVisualOdometry/src/dvotest.cpp > CMakeFiles/dvotest.dir/src/dvotest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/hyj/dvo_demo-code/src/dvotest.cpp > CMakeFiles/dvotest.dir/src/dvotest.cpp.i
 
 CMakeFiles/dvotest.dir/src/dvotest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dvotest.dir/src/dvotest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/DenseVisualOdometry/src/dvotest.cpp -o CMakeFiles/dvotest.dir/src/dvotest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/hyj/dvo_demo-code/src/dvotest.cpp -o CMakeFiles/dvotest.dir/src/dvotest.cpp.s
 
 CMakeFiles/dvotest.dir/src/dvotest.cpp.o.requires:
 .PHONY : CMakeFiles/dvotest.dir/src/dvotest.cpp.o.requires
@@ -105,7 +105,77 @@ dvotest_EXTERNAL_OBJECTS =
 ../bin/dvotest: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
 ../bin/dvotest: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
 ../bin/dvotest: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-../bin/dvotest: ../thirdparty/sophus_src/build/libSophus.so
+../bin/dvotest: /usr/lib/libvtkCharts.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkViews.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkInfovis.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkWidgets.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkHybrid.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkParallel.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkVolumeRendering.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkRendering.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkGraphics.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkImaging.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkIO.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkFiltering.so.5.8.0
+../bin/dvotest: /usr/lib/libvtkCommon.so.5.8.0
+../bin/dvotest: /usr/lib/libvtksys.so.5.8.0
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libpthread.so
+../bin/dvotest: /usr/lib/libpcl_common.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+../bin/dvotest: /usr/lib/libpcl_kdtree.so
+../bin/dvotest: /usr/lib/libpcl_octree.so
+../bin/dvotest: /usr/lib/libpcl_search.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libqhull.so
+../bin/dvotest: /usr/lib/libpcl_surface.so
+../bin/dvotest: /usr/lib/libpcl_sample_consensus.so
+../bin/dvotest: /usr/lib/libpcl_filters.so
+../bin/dvotest: /usr/lib/libpcl_features.so
+../bin/dvotest: /usr/lib/libpcl_segmentation.so
+../bin/dvotest: /usr/lib/libOpenNI.so
+../bin/dvotest: /usr/lib/libpcl_io.so
+../bin/dvotest: /usr/lib/libpcl_registration.so
+../bin/dvotest: /usr/lib/libpcl_keypoints.so
+../bin/dvotest: /usr/lib/libpcl_recognition.so
+../bin/dvotest: /usr/lib/libpcl_visualization.so
+../bin/dvotest: /usr/lib/libpcl_people.so
+../bin/dvotest: /usr/lib/libpcl_outofcore.so
+../bin/dvotest: /usr/lib/libpcl_tracking.so
+../bin/dvotest: /usr/lib/libpcl_apps.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libpthread.so
+../bin/dvotest: /usr/lib/libpcl_common.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+../bin/dvotest: /usr/lib/libpcl_kdtree.so
+../bin/dvotest: /usr/lib/libpcl_octree.so
+../bin/dvotest: /usr/lib/libpcl_search.so
+../bin/dvotest: /usr/lib/x86_64-linux-gnu/libqhull.so
+../bin/dvotest: /usr/lib/libpcl_surface.so
+../bin/dvotest: /usr/lib/libpcl_sample_consensus.so
+../bin/dvotest: /usr/lib/libpcl_filters.so
+../bin/dvotest: /usr/lib/libpcl_features.so
+../bin/dvotest: /usr/lib/libpcl_segmentation.so
+../bin/dvotest: /usr/lib/libOpenNI.so
+../bin/dvotest: /usr/lib/libpcl_io.so
+../bin/dvotest: /usr/lib/libpcl_registration.so
+../bin/dvotest: /usr/lib/libpcl_keypoints.so
+../bin/dvotest: /usr/lib/libpcl_recognition.so
+../bin/dvotest: /usr/lib/libpcl_visualization.so
+../bin/dvotest: /usr/lib/libpcl_people.so
+../bin/dvotest: /usr/lib/libpcl_outofcore.so
+../bin/dvotest: /usr/lib/libpcl_tracking.so
+../bin/dvotest: /usr/lib/libpcl_apps.so
+../bin/dvotest: /home/hyj/svo_third_package/Sophus/build/libSophus.so
 ../bin/dvotest: CMakeFiles/dvotest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin/dvotest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dvotest.dir/link.txt --verbose=$(VERBOSE)
@@ -122,6 +192,6 @@ CMakeFiles/dvotest.dir/clean:
 .PHONY : CMakeFiles/dvotest.dir/clean
 
 CMakeFiles/dvotest.dir/depend:
-	cd /home/hyj/DenseVisualOdometry/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyj/DenseVisualOdometry /home/hyj/DenseVisualOdometry /home/hyj/DenseVisualOdometry/build /home/hyj/DenseVisualOdometry/build /home/hyj/DenseVisualOdometry/build/CMakeFiles/dvotest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hyj/dvo_demo-code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyj/dvo_demo-code /home/hyj/dvo_demo-code /home/hyj/dvo_demo-code/build /home/hyj/dvo_demo-code/build /home/hyj/dvo_demo-code/build/CMakeFiles/dvotest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dvotest.dir/depend
 

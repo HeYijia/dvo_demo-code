@@ -4,7 +4,7 @@
 CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o
  ../include/CalWeight.h
  ../include/FrameData.h
- /home/hyj/DenseVisualOdometry/src/CalWeight.cpp
+ /home/hyj/dvo_demo-code/src/CalWeight.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -208,7 +208,7 @@ CMakeFiles/dvocorelib.dir/src/CalWeight.cpp.o
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 CMakeFiles/dvocorelib.dir/src/Least_squares.cpp.o
  ../include/Least_squares.h
- /home/hyj/DenseVisualOdometry/src/Least_squares.cpp
+ /home/hyj/dvo_demo-code/src/Least_squares.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -416,9 +416,9 @@ CMakeFiles/dvocorelib.dir/src/TransformEstimate.cpp.o
  ../include/FrameData.h
  ../include/Least_squares.h
  ../include/TransformEstimate.h
- ../thirdparty/sophus_src/sophus/se3.h
- ../thirdparty/sophus_src/sophus/so3.h
- /home/hyj/DenseVisualOdometry/src/TransformEstimate.cpp
+ /home/hyj/dvo_demo-code/src/TransformEstimate.cpp
+ /home/hyj/svo_third_package/Sophus/sophus/se3.h
+ /home/hyj/svo_third_package/Sophus/sophus/so3.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

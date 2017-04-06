@@ -1,5 +1,6 @@
 #include "TransformEstimate.h"
-#include "sophus_src/sophus/se3.h"
+//#include "sophus_src/sophus/se3.h"
+#include "sophus/se3.h"
 
 
 namespace dvo_core {
